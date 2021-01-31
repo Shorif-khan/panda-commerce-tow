@@ -1,3 +1,38 @@
 body{
     font-family: 'Fraunces', serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Top Area Style */
+.top-area{
+    margin-top: 100px;
+    background-color: #FCEAE8;
+    border-radius: 15px;
+}
+/* Card Style */
+.panda-body{
+    border: none;
+    border-radius: 14px;
+}
+.panda-footer{
+    border: 0;
+    background-color: #ffffff;
+}
+/* submit section style */
+.submit-section{
+    background-color: #FCEAE8;
+    border-radius: 14px;
+}
+/* media query style */
+@media (max-width: 992px){
+    .navigations{
+        place-items: center;
+    }
+}
+@media (max-width: 768px){
+    .flexible{
+        place-content: center;
+        margin: 50px 0;
+    }
 }
